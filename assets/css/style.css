@@ -124,47 +124,6 @@ p {
   height: 100%;
 }
 
-/*===== All Button Style =====*/
-.main-btn {
-  display: inline-block;
-  font-weight: 500;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  border: 0;
-  padding: 0 40px;
-  font-size: 16px;
-  height: 55px;
-  line-height: 55px;
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-  z-index: 5;
-  -webkit-transition: all 0.4s ease-out 0s;
-  transition: all 0.4s ease-out 0s;
-  background-color: #f5dc0a;
-}
-
-@media (max-width: 767px) {
-  .main-btn {
-    padding: 0 25px;
-    height: 40px;
-    line-height: 40px;
-    font-size: 14px;
-  }
-}
-
-.main-btn:hover {
-  background-color: rgba(245, 220, 10, 0.5);
-  color: #000;
-  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
-}
-
 /*===== All Section Title Style =====*/
 .section_title .line {
   width: 75px;
@@ -529,13 +488,6 @@ p {
   }
 }
 
-.navbar-btn .main-btn {
-  height: 45px;
-  line-height: 45px;
-  padding: 0 30px;
-  border: 0;
-}
-
 .sticky .navbar-nav .nav-item a {
   padding: 25px 0;
 }
@@ -645,42 +597,19 @@ p {
   }
 }
 
-.header-hero-content .main-btn {
-  margin-top: 40px;
-}
-
-.header-hero-content .main-btn:hover {
-  -webkit-box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
-  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
-}
-
-.header-hero-content .main-btn.main-btn-2 {
-  line-height: 46px;
-  border: 2px solid #fff;
-  background-color: transparent;
-}
-
-@media (max-width: 767px) {
-  .header-hero-content .main-btn.main-btn-2 {
-    line-height: 36px;
-  }
-}
-
-.header-hero-content .main-btn.main-btn-2:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  -webkit-box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
-  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
-}
-
 /*===========================
       03.COURSES css 
 ===========================*/
+.courses_area {
+  padding-bottom: 120px;
+}
+
 .single_courses img {
   border-radius: 5px;
   width: 100%;
 }
 
-.single_courses .title a {
+.single_courses .title {
   color: #292D36;
   font-size: 30px;
   font-weight: 700;
@@ -690,19 +619,15 @@ p {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .single_courses .title a {
+  .single_courses .title {
     font-size: 24px;
   }
 }
 
 @media (max-width: 767px) {
-  .single_courses .title a {
+  .single_courses .title {
     font-size: 24px;
   }
-}
-
-.single_courses .title a:hover {
-  color: #f5dc0a;
 }
 
 .single_courses p {
@@ -789,9 +714,6 @@ p {
   }
 }
 
-.about_content .about_content_wrapper .main-btn {
-  margin-top: 35px;
-}
 
 /*===========================
       05.COUNTER css 
@@ -873,91 +795,6 @@ p {
 }
 
 /*===========================
-      06.TEAM css 
-===========================*/
-.single_team {
-  margin-bottom: 30px;
-}
-
-.single_team .team_image img {
-  width: 100%;
-}
-
-.single_team .team_content {
-  margin-top: -25px;
-  position: relative;
-  z-index: 5;
-}
-
-.single_team .team_content .social {
-  display: inline-block;
-  background-color: #fff;
-  border: 2px solid #f5dc0a;
-  border-radius: 50px;
-  padding: 0 10px;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .single_team .team_content .social {
-    padding: 0 5px;
-  }
-}
-
-.single_team .team_content .social li {
-  display: inline-block;
-  margin: 10px;
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .single_team .team_content .social li {
-    margin: 5px;
-  }
-}
-
-.single_team .team_content .social li a {
-  font-size: 16px;
-  color: #585F6E;
-  -webkit-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .single_team .team_content .social li a {
-    font-size: 14px;
-  }
-}
-
-.single_team .team_content .social li a:hover {
-  color: #f5dc0a;
-}
-
-.single_team .team_content .team_name {
-  margin-top: 20px;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .single_team .team_content .team_name {
-    font-size: 18px;
-  }
-}
-
-.single_team .team_content p {
-  margin-top: 10px;
-}
-
-.single_team:hover .social {
-  opacity: 1;
-  visibility: visible;
-}
-
-
-/*===========================
       10.CONTACT css 
 ===========================*/
 
@@ -1016,7 +853,7 @@ p {
   transition: all .3s ease-out 0s
 }
 
-.single_schedule .title a {
+.single_schedule .title {
   font-size: 24px;
   color: #fff;
   color: #fff;
@@ -1026,13 +863,13 @@ p {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .single_schedule .title a {
+  .single_schedule .title {
     font-size: 20px
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .single_schedule .title a {
+  .single_schedule .title{
     font-size: 20px
   }
 }
@@ -1056,7 +893,7 @@ p {
   color: #292d36
 }
 
-.single_schedule:hover .title a {
+.single_schedule:hover .title {
   color: #292d36
 }
 
@@ -1106,41 +943,14 @@ p {
   height: 100%;
 }
 
-.contact_form {
-  padding-right: 30px;
+.contact_area ul.info a {
+  font-size: 20px;
+  margin-right: 10px;
 }
-
-p.form-message.success, p.form-message.error {
-  font-size: 16px;
-  color: #292D36;
-  background: #f7f7fd;
-  padding: 10px 15px;
-  margin-top: 30px;
-}
-
-p.form-message.success.form-message.error, p.form-message.error.form-message.error {
-  color: #f00;
-}
-
-.single_form {
-  margin-top: 30px;
-}
-
-.single_form input,
-.single_form textarea {
-  width: 100%;
-  padding: 0 25px;
-  height: 50px;
-  border: 1px solid #585F6E;
-  border-radius: 5px;
-  background-color: #fff;
-  color: #585F6E;
-}
-
-.single_form textarea {
-  height: 140px;
-  padding-top: 15px;
-  resize: none;
+.contact_area ul.info li strong {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
 }
 
 /*===========================
@@ -1253,4 +1063,3 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
   color: #fff;
   background-color: #f5dc0a;
 }
-/*# sourceMappingURL=style.css.map */
