@@ -19,10 +19,10 @@
 /*===========================
     1. COMMON css 
 ===========================*/
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,900&display=swap');
 body {
-  font-family: "Lato", sans-serif;
-  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   font-style: normal;
   color: #585F6E;
 }
@@ -72,22 +72,24 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   color: #292D36;
   margin: 0px;
 }
 
 h1 {
   font-size: 48px;
+  text-transform: uppercase;
 }
 
 h2 {
   font-size: 36px;
+  text-transform: uppercase;
 }
 
 h3 {
   font-size: 28px;
+  text-transform: uppercase;
 }
 
 h4 {
@@ -110,10 +112,10 @@ ul, ol {
 
 p {
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   color: #585F6E;
   margin: 0px;
+  text-align: justify;
 }
 
 .bg_cover {
@@ -134,8 +136,9 @@ p {
 
 .section_title .title {
   font-size: 44px;
-  font-weight: 700;
+  font-weight: 900;
   margin-top: 10px;
+  font-style: italic;
 }
 
 @media (max-width: 767px) {
@@ -548,7 +551,8 @@ p {
 
 .header-hero-content .header-title {
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 900;
+  font-style: italic;
   color: #fff;
 }
 
@@ -577,13 +581,14 @@ p {
 }
 
 .header-hero-content .header-title span {
-  font-weight: 700;
+  font-weight: 900;
   display: contents;
 }
 
-.header-hero-content p {
-  margin-top: 30px;
+.header-hero-content h3 {
+  margin-top: 3px;
   color: #fff;
+  text-shadow: 1px 1px 8px #000;
 }
 
 .header-hero-content ul li {
@@ -612,8 +617,9 @@ p {
 .single_courses .title {
   color: #292D36;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 900;
   margin-top: 25px;
+  font-style: italic;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
@@ -756,8 +762,8 @@ p {
 
 .single_schedule .number {
   color: rgba(255, 255, 255, .46);
-  font-size: 34px;
-  font-weight: 400;
+  font-size: 35px;
+  font-weight: 900;
   display: block;
   -webkit-transition: all .3s ease-out 0s;
   transition: all .3s ease-out 0s
@@ -765,7 +771,7 @@ p {
 
 .single_schedule .time {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   color: #fff;
   display: block;
   margin-top: 10px;
@@ -776,7 +782,7 @@ p {
 .single_schedule .title {
   font-size: 24px;
   color: #fff;
-  color: #fff;
+  font-style: italic;
   margin-top: 15px;
   -webkit-transition: all .3s ease-out 0s;
   transition: all .3s ease-out 0s
@@ -869,7 +875,7 @@ p {
 }
 .contact_area ul.info li strong {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 900;
   margin-right: 10px;
 }
 
@@ -883,7 +889,7 @@ p {
 .footer_title {
   color: #fff;
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .footer_info .info {
