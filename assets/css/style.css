@@ -19,7 +19,7 @@
 /*===========================
     1. COMMON css 
 ===========================*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,900&family=Prompt:ital,wght@1,800&display=swap');
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -135,6 +135,7 @@ p {
 }
 
 .section_title .title {
+  font-family: 'Prompt', sans-serif;
   font-size: 44px;
   font-weight: 900;
   margin-top: 10px;
@@ -550,6 +551,7 @@ p {
 }
 
 .header-hero-content .header-title {
+  font-family: 'Prompt', sans-serif;
   font-size: 60px;
   font-weight: 900;
   font-style: italic;
@@ -616,10 +618,11 @@ p {
 
 .single_courses .title {
   color: #292D36;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 900;
   margin-top: 25px;
   font-style: italic;
+  text-transform: uppercase;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
@@ -664,6 +667,7 @@ p {
 }
 
 .about_content .about_title {
+  font-family: 'Prompt', sans-serif;
   font-size: 70px;
   font-style: italic;
   background-color: #fff;
